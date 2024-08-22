@@ -1,0 +1,68 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(18, 30, 53);
+    color: white;
+}
+
+.title-div {
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(85, 85, 85);
+    padding: 0px 10px 10px 10px;
+    margin: 0px 100px;
+    background-color: rgb(49, 64, 92);
+}
+
+.cont-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.pick-boxes {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.human-move, .comp-move {
+    width: 50px;
+    background-color: rgb(3, 109, 141);
+    border-radius: 200px;
+    padding: 20px;
+}
+
+.human-move:hover {
+    background-color: rgb(86, 137, 151);
+    cursor: pointer;
+}
+
+.score-result-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}

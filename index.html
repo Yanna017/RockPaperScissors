@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock | Paper | Scissors</title>
+    <!-- <link rel="icon" href="icons/icon.png"> -->
+</head>
+
+<body>
+
+    <div class="title-div">
+        <p class="game-title">ROCK PAPER SCISSORS</p>
+    </div>
+
+    <!-- HUMAN PICK -->
+    
+    <div class="game-container">
+        <div class="cont-1">
+            <p>PICK ONE!</p>
+        </div>
+
+        <div class="cont-2">
+            <div class="pick-boxes">
+                <img src="icons/rock.png" class="human-move hum-rock" onclick="getHumanChoice('Rock')">
+            </div>
+            <div class="pick-boxes">
+                <img src="icons/paper.png" class="human-move hum-paper" onclick="getHumanChoice('Paper')">
+            </div>
+            <div class="pick-boxes">
+                <img src="icons/scissors.png" class="human-move hum-scissors" onclick="getHumanChoice('Scissors')">
+            </div>
+        </div>
+    </div>
+
+    <!-- RESULT -->
+
+    <div class="score-result-container">
+        <div class="score-title">
+            <p>Score</p>
+        </div>
+        <div class="score-container">
+            <div class="score-result-container">
+                <p>Your Score: <Span class="human-score">0</Span></p>
+            </div>
+            <div class="score-result-container">
+                <p>Computer Score: <Span class="computer-score">0</Span></p>
+            </div>
+            <div class="score-result-container">
+                <p>Tie Score: <Span class="tie-score">0</Span></p>
+            </div>
+        </div>
+        <div class="result-container">
+            <p class="result-txt">Result: <span class="winner"></span></p>
+            <p class="result">n/a</p>
+        </div>
+    </div>
+
+    <!-- COMPUTER PICK -->
+    
+    <div class="game-container">
+        <div class="cont-1">
+            <p>COMPUTER</p>
+        </div>
+
+        <div class="cont-2">
+            <div class="pick-boxes">
+                <img src="icons/rock.png" class="comp-move comp-rock">
+            </div>
+            <div class="pick-boxes">
+                <img src="icons/paper.png" class="comp-move comp-paper">
+            </div>
+            <div class="pick-boxes">
+                <img src="icons/scissors.png" class="comp-move comp-scissors">
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
